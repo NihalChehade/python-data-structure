@@ -18,3 +18,9 @@ def repeat(phrase, num):
         >>> repeat('abc', 'nope') is None
         True
     """
+    repeated_list = []
+    for i in range(0, num ):
+        repeated_list.append(phrase)
+
+    return "".join(repeated_list)
+
